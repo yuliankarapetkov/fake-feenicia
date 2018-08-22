@@ -7,7 +7,6 @@ app.use(bodyParser.json());
 
 app.post('/', (req, res) => {
     const { test } = req.body;
-    //
    res.status(200).send(test);
 });
 
